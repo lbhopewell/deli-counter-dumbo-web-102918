@@ -1,13 +1,17 @@
 # Write your code here.
 
 def take_number(katz_deli, name)
-  katz_deli.push(name)
+  katz_deli << name
   position = katz_deli.length
-  puts "Welcome, #{name}. You are #{position} in line.  
+  return "Welcome, #{name}. You are #{position} in line.  
 end
 
 def now_serving(katz_deli)
-  
+  if(katz_deli.length == 0)
+    return "There 
+  else 
+    serving = katz_deli.shift
+    return " Currently serving #{serving}."
 end
 
 def line (katz_deli)
