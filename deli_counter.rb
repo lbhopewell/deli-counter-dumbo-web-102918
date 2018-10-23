@@ -9,8 +9,7 @@ def line(katz_deli)
     while counter < katz_deli.length
     current << katz_deli[counter]
     counter += 1
-  end
-  
+    end
   puts "The line is currently: #{current.inspect} "
 end
 end
