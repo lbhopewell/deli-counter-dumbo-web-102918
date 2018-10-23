@@ -19,12 +19,13 @@ def line (katz_deli)
   current = ""
   counter = 0 
   if(katz_deli.length == 0)
-  return "The line is currently empty."
+    return "The line is currently empty."
   else
     while counter < katz_deli.length
     current += counter+1 
     current += ". "
     current  += katz_deli[counter]
+  end
   end
   return "The line is currently: #{current} "
 end
