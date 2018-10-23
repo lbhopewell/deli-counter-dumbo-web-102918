@@ -1,6 +1,13 @@
 # Write your code here.
 def current(katz_deli)
-  
+   current = []
+  counter = 0 
+   while counter < katz_deli.length
+    current << counter+1 
+    current << ". "
+    current << katz_deli[counter]
+  end
+end
 
 def line(katz_deli)
   if(katz_deli.length === 0)
