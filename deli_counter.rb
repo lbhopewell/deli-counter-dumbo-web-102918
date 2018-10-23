@@ -7,15 +7,15 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
+  serving = katz_deli.shift
   if(katz_deli.length == 0)
     return "There is nobody waiting to be served!"
   else 
-    serving = katz_deli.shift
     return "Currently serving #{serving}."
   end
 end
 
-def line (katz_deli)
+def line(katz_deli)
   current = []
   counter = 0 
   if(katz_deli.length == 0)
