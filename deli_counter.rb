@@ -15,7 +15,7 @@ def line(katz_deli)
       end
     counter += 1
     end
-  puts "The line is currently: #{current} "
+  puts "The line is currently: #{current}"
 end
 end
 
