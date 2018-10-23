@@ -7,6 +7,7 @@ def current(katz_deli)
     current << ". "
     current << katz_deli[counter]
   end
+  current
 end
 
 def line(katz_deli)
