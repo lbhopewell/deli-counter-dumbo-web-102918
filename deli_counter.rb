@@ -1,6 +1,6 @@
 # Write your code here.
-def current
-
+def current(katz_deli)
+  
 
 def line(katz_deli)
   if(katz_deli.length === 0)
