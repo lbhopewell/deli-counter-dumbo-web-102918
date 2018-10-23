@@ -7,6 +7,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     while counter < katz_deli.length
+    current << counter
+    current << ". "
     current << katz_deli[counter]
     counter += 1
     end
