@@ -10,7 +10,9 @@ def line(katz_deli)
     current << "#{counter+1}"
     current << ". "
     current << katz_deli[counter]
-    current << " " if(counter<katz_deli.length-2)
+      if(counter<katz_deli.length-2)
+        current << " "
+      end
     counter += 1
     end
   puts "The line is currently: #{current} "
