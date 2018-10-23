@@ -2,12 +2,14 @@
 
 def line(katz_deli)
   current = []
+  counter = 
+  while 
   if(katz_deli.length === 0)
     puts "The line is currently empty."
   else
-    
+    current << "Ada"
   end
-
+  puts "The line is currently: #{current} "
 end
 
 def take_a_number(katz_deli, name)
