@@ -1,6 +1,6 @@
 # Write your code here.
 
-def take_number(katz_deli, name)
+def take_a_number(katz_deli, name)
   katz_deli << name
   position = katz_deli.length
   return "Welcome, #{name}. You are #{position} in line." 
