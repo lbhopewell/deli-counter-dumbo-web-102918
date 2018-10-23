@@ -10,8 +10,9 @@ def line(katz_deli)
     current << katz_deli[counter]
     counter += 1
   end
-  end
+  
   puts "The line is currently: #{current.inspect} "
+end
 end
 
 def take_a_number(katz_deli, name)
