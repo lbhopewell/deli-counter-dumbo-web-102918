@@ -9,7 +9,7 @@ def line(katz_deli)
   else
     current << "Ada"
   end
-  puts "The line is currently: #{current} "
+  puts "The line is currently: #{current.inspect} "
 end
 
 def take_a_number(katz_deli, name)
