@@ -2,12 +2,13 @@
 
 def line(katz_deli)
   current = []
-  counter = 
-  while 
+  counter = 0
   if(katz_deli.length === 0)
     puts "The line is currently empty."
   else
-    current << "Ada"
+    while counter < katz_deli.length
+    current << katz_deli[counter]
+    counter += 1
   end
   puts "The line is currently: #{current.inspect} "
 end
