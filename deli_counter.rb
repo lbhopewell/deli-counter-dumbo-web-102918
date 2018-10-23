@@ -11,7 +11,7 @@ def line(katz_deli)
     current << ". "
     current << katz_deli[counter]
       if(counter<katz_deli.length)
-        current << " "
+        current << ""
       end
     counter += 1
     end
