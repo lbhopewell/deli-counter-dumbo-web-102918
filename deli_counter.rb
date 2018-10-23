@@ -1,13 +1,6 @@
 # Write your code here.
 
 def line(katz_deli)
-  current = []
-  counter = 1 
-   while counter < katz_deli.length
-    current << counter+1 
-    current << ". "
-    current  << katz_deli[counter]
-  end
   if(katz_deli.length === 0)
     puts "The line is currently empty."
   else
