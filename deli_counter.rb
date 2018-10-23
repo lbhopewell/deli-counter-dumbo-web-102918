@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(katz_deli)
-  current = []
+  current = ""
   counter = 0
   if(katz_deli.length == 0)
     puts "The line is currently empty."
@@ -10,7 +10,7 @@ def line(katz_deli)
     current << katz_deli[counter]
     counter += 1
     end
-  puts "The line is currently: #{current.inspect} "
+  puts "The line is currently: #{current} "
 end
 end
 
