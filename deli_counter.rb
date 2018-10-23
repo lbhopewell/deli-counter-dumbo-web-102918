@@ -1,16 +1,7 @@
 # Write your code here.
-def current(katz_deli)
-   current = []
-  counter = 0 
-   while counter < katz_deli.length
-    current << counter+1 
-    current << ". "
-    current << katz_deli[counter]
-  end
-  current
-end
 
 def line(katz_deli)
+  current = []
   if(katz_deli.length === 0)
     puts "The line is currently empty."
   else
