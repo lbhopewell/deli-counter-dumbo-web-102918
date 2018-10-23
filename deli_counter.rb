@@ -1,5 +1,5 @@
 # Write your code here.
-def curreb
+def current
 
 
 def line(katz_deli)
