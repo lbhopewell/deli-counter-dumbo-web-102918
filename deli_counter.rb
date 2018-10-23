@@ -13,7 +13,7 @@ def line(katz_deli)
     current << " "
     counter += 1
     end
-  puts "The line is currently: #{current} "
+  puts "The line is currently: #{current.chop.chop} "
 end
 end
 
