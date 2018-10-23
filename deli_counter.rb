@@ -28,3 +28,7 @@ def now_serving(katz_deli)
 end
 
 
+   while counter < katz_deli.length
+    current << counter+1 
+    current << ". "
+    current  << katz_deli[counter]
